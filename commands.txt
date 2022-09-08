@@ -1,0 +1,11 @@
+commands.txt
+
+python -m venv .venv
+source .venv/bin/activate
+pip install django
+django-admin startproject core .
+python manage.py startapp books
+
+python manage.py runserver
+
+python manage.py  migrate  
